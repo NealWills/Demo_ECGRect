@@ -16,13 +16,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        let view = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 100, height: 200))
+        let view = UIView.init(frame: CGRect.init(x: 100, y: 50, width: self.view.nw.width / 2.0, height: 200))
         
         print(view.nw.leading)
         
         print(view.nw.width)
         
         print(view.nw.height)
+        
+        print(view.nw)
         
     }
 
